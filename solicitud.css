@@ -1,0 +1,48 @@
+
+.solicitud_servicio{
+    margin: 0;
+    padding: 0;
+    background-image: url(1000_F_750287668_UXbuDlHCxODUioX0uRHh15zJ6AVZViEo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.solicitud_servicio p{
+
+    text-align: justify;
+    color: rgb(244, 248, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    text-shadow: 1px 1px 0px #000, -1px -1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000;
+    font-size: 20px;
+}
+.contenido{
+
+    padding: 15px;
+}
+#content form [type=text], #content form [type=email], #content form [type=tel], #content select, #content form textarea {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    width: 40%;
+    padding: 20px;
+    border: 0;
+    background-color: #efefef;
+    color: rgb(49, 4, 252);
+    border-radius: 10px;
+    
+}
+#content form label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn input {
+
+    color:antiquewhite;
+    border: 15px;
+    border-radius: 35px;
+    padding: 20px;
+    background-color: crimson;
+    
+}

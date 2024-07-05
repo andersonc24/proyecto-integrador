@@ -1,0 +1,390 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background:-webkit-linear-gradient(rgba(4, 61, 250, 0.767), rgb(243, 242, 242));
+    text-align: center;
+    padding: 10px 0;
+
+}
+.header-content {
+    display: flex;
+}
+.imglogo {
+    font-weight: 700;
+    font-size: 25px;
+    width: 200px;
+    height: 130px;
+    filter: brightness(180%) contrast(80%);
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(244, 244, 248);
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+
+}
+nav a:hover{
+    background-color: rgba(9, 253, 253, 0.918);
+    color: antiquewhite;
+}
+.social-links {
+        display: inline-flex;
+        gap: 15px;
+        margin-bottom: 10px;
+}
+    
+.social-link {
+        color: rgb(12, 8, 252);
+        text-decoration: none;
+        font-size: 50px;
+        transition: color 0.3s;
+}
+    
+.social-link:hover {
+        color: #07f713;
+}
+.search-form {
+    display:flexbox;
+    float:center;
+    border-radius: 20px;
+    
+}
+.search-form input {
+    padding: 15px 10px;
+    border: 15px;
+    border-radius: 20px;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #fd0707;
+    color: white;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.search-form button:hover {
+    background-color: #0835fd;
+}
+.encabezado-img{
+    background-image: url(header.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(2, 27, 248);
+    opacity: 0.7;
+}
+.encabezado-img p{
+    color:hsl(59, 98%, 50%);
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: justify;
+    margin-left: 20px; /* Márgen a la izquierda */
+    margin-right: 20px; /* Márgen a la derecha */
+    text-shadow: 1px 1px 0px #0a0a0a,   
+    -1px -1px 0px #070707, 
+     1px -1px 0px #0c0c0c;  
+}
+.encabezado-img h1{
+    font-size: 50px;
+    padding: 20px 0;
+    text-shadow: 1px 1px 0px #000,   
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,  
+    1px -1px 0px #000;      
+
+    
+}
+.encabezado-img h2{
+    font-size: 30px;
+    padding: 20px 0;
+    text-shadow: 1px 1px 0px #000,   
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,  
+    1px -1px 0px #000;      
+    color: #fd0707;
+    text-transform: uppercase;
+   
+}
+.container{
+    display:block !important;
+    padding: 25px;
+
+}
+
+.service img {
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.service h2 {
+    font-size: 32px;
+    color: rgb(250, 226, 7);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #000, -1px -1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000;
+}
+
+.service p {
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: justify;
+}
+.service1 img {
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.service1 h2 {
+    font-size: 32px;
+    color: rgb(250, 226, 7);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #000, -1px -1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000;
+}
+
+.service1 p {
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.btn-1, .btn-2 {
+    background: linear-gradient(to bottom, rgb(255, 0, 0), rgb(251, 251, 253));
+    color:rgb(248, 246, 246);
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 20px 20px;
+    float:right;
+    margin-right: 45px;
+    box-shadow: 0 5px #fc0202;
+    transition: all 0.10s ease; 
+}
+
+.btn-1:active {
+    box-shadow: 0 2px #fc0202;
+    transform: translateY(45px);
+}
+
+.btn-2:active {
+    box-shadow: 0 2px #fc0202;
+    transform: translateY(45px);
+}
+
+.empresa {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    display: block;
+}
+
+.empresa h1,
+.empresa h2 {
+    font-size: 40px;
+    color: rgb(250, 226, 7);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #000, -1px -1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000;
+}
+
+.empresa h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #0314fc;
+}
+
+.empresa p {
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.Porfolios-container{
+    padding: 20px;
+
+}
+
+.Porfolios-container h2{
+    color:#FFFF00;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 1px 0px #000,   
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,  
+    1px -1px 0px #000;      
+    border-radius: 50px;
+    background-color: #0835fd;
+}
+
+.porfolio {
+        display: flex;
+        flex-direction:row;
+        align-items:center;
+        margin-bottom: 30px;
+}
+.porfolio img{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.porfolio-1 h3{
+    color:#1100ff;
+    text-align: justify;
+    font-size: 30px;
+    text-shadow: 1px 1px 0px #000,   
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,  
+    1px -1px 0px #000;      
+}
+.porfolio-2 h3{
+    color:#1100ff;
+    text-align:left;
+    font-size: 30px;
+    text-shadow: 1px 1px 0px #000,   
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,  
+    1px -1px 0px #000;      
+}
+.porfolio-3 h3{
+    color:#1100ff;
+    text-align: justify;
+    font-size: 30px;
+    text-shadow: 1px 1px 0px #000,   
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,  
+    1px -1px 0px #000;      
+}
+
+.porfolio-1, .porfolio-2, .porfolio-3 p{
+    text-align: justify;
+    font-weight: bold;
+    color: #0c0c0c;
+}
+
+.btn-4{
+    background: linear-gradient(to bottom, rgb(0, 119, 255), rgb(251, 251, 253));
+    color:rgb(248, 246, 246);
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px 10px;
+    top: 20px;
+    float:right;
+    margin-right: 45px;
+    box-shadow: 0 5px #1c03fa;
+    transition: all 0.10s ease;
+    border: none;
+}
+.videos {
+    width: 2px;
+    color: white;
+    height: 100px;
+    display:inline;
+    
+ 
+    padding: 20px;
+    
+    box-sizing: border-box;
+  }
+
+.info-content {
+    display: flex;
+}
+.info-price{
+    padding: 10px;
+    text-align:justify;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.281);
+    color:#0a0a0a;
+    background: linear-gradient(to bottom, #0303ff, #fdfeff); 
+    align-items:flex-start;
+}
+.info-price h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 50px;
+    color:hsl(0, 33%, 99%);
+}
+.info-price li {
+    list-style: square;
+    color:#ffee00;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    text-shadow: 1px 1px 0px #000, -1px -1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000;
+    padding-left: 1.5em;
+    font-size: 20px;
+
+}
+
+.info-price p{
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px 0 0 20px;
+    
+   
+}
+.contactos {
+    padding: 0px 0 20px 0;
+    background-position: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgba(255, 255, 255, 0.301);
+    border: 5px;
+    border-bottom: 20px;
+}
+.logo-wha{
+    width: 30px;
+    height: 30px;
+    margin-right:2px;
+    display:inline-flex;
+
+}
+.contactos h2, h3, h4 {
+    color:#0a0a0a;
+    text-align: center;
+    text-shadow: 1px 1px 0px #faf8f88e, -1px -1px 0px #faf8f88e,-1px 1px 0px #000, 1px -1px 0px #000;
+
+}
+.contactos p{
+    color:#080808;
+    text-align: center;
+    text-shadow: 1px 1px 0px  #faf8f88e, -1px -1px 0px #faf8f88e,-1px 1px 0px #000, 1px -1px 0px #000;
+}
+.palabra{
+    color: #fc0202;
+}

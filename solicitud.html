@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLICITUD DE SERVICIO</title>
+    <link rel="stylesheet" href="solicitud.css">
+</head>
+<body class="solicitud_servicio">
+    
+    <p>GRACIAS POR UTILIZAR NUESTRO SERVICIOS A CONTINUACION LLENA EL FORMULARIO CON TUS DATOS, PARA PODER
+    BRINDARTE TODA LA INFORMACION Y UNA POSIBLE PRESTACION DE NUESTRO SERVICIO. DE ANTEMANO TE AGRADEZCO POR HABERTE
+    CONTACTADO CON NOSOTROS, TAN PRONTO TENGAMOS TU INFORACION NOS PONDREMOS EN CONTACTO CON TIGO.</p>
+    <div class="contenido">
+    <div id="content">
+        <form>
+        <label for="nombre-contacto"><span style="color:antiquewhite;">NOMBRES Y APELLIDOS COMPLETOS</span></label>
+        <input type="text" id="nombre-contacto" name="NOMBRES Y APELLIDOS COMPLETOS" required/>
+        <label for="direccion-contacto"><span style="color:antiquewhite;">DIRECCION EXACTA </span></label>
+        <input type="text" id="direccion-contacto" name="DIRECCION EXACTA" required/>
+        <label for="ciudad"><span style="color:antiquewhite;">TU CIUDAD</span></label>
+        <input type="text" id="ciudad" name="ciudad" required/>
+        <label for="email"><span style="color:antiquewhite;">EMAIL</span></label>
+        <input type="email" id="email" name="EMAIL" required/>
+        <label for="tel"><span style="color:antiquewhite;">TELEFONOS</span></label>
+        <input type="tel" pattern="[0-9]{10}" placeholder="3000000000" required id="telefonos" name="TELEFONOS"/>
+        <label><span style="color: antiquewhite;">TIPO DE SERVICIO SOLICITADO:</span></label>
+        <select>
+            <option >selecciona tu opcion...</option>
+            <option value="AMBULANCIA TAB">AMBULANCIA TAB</option>
+            <option value="AMBULANCIA TAM">AMBULANCIA TAM</option>
+            <option value="TRANSPORTE ACCESIBLE">TRASNPORTE ACCESIBLE</option>
+        </select>
+        <label for="consulta-contacto"><span style="color:antiquewhite;">¿TIENES ALGUNA DUDA?...ESCRIBENOS</span></label>
+        <textarea id="consulta-contacto"></textarea>
+        <div class="btn">
+        <input type="submit" value="ENVIAR">
+        </div>
+        <br>
+    </form>
+    </div>
+</div>
+</body>
+
+</html>
